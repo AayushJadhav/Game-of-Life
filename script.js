@@ -3,7 +3,7 @@ Canvas.width = innerWidth;
 Canvas.height = innerHeight;
 const c = Canvas.getContext('2d');
 
-const w = 40;
+const w = 20;
 const cols = Math.floor(Canvas.width / w);
 const rows = Math.floor(Canvas.height / w);
 
