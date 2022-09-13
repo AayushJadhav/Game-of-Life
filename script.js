@@ -3,7 +3,7 @@ Canvas.width = innerWidth;
 Canvas.height = innerHeight;
 const c = Canvas.getContext('2d');
 
-const w = 20;
+const w = 40;
 const cols = Math.floor(Canvas.width / w);
 const rows = Math.floor(Canvas.height / w);
 
@@ -34,7 +34,6 @@ function renderGrid(grid) {
 			c.rect(col * w, row * w, w, w);
 			c.fillStyle = cell ? "black" : "white";
 			c.fill();
-			c.stroke();
 		}
 	}
 }
